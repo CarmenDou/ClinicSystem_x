@@ -21,4 +21,9 @@ export class AttackService {
     const url = `${this.baseURL}/attackReport/${participantId}`;
     return this.httpClient.get<Attack[]>(`${url}`);
   }
+
+  createAttack():Observable<Object>{
+    const url = `${this.baseURL}/attacks`;
+    return this.httpClient.post(`${url}`,{attackDateTime: '2024-05-15T09:38:00', location: 'inside', participant: {participantId: 9, userName: '', deviceUuid: ''}});
+  }
 }

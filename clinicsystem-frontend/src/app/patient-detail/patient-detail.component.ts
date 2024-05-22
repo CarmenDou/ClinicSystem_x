@@ -25,6 +25,10 @@ export class PatientDetailComponent implements OnInit{
       this.attacks = response.content;
       this.totalPages = response.totalPages;
     })
+    // this.attackService.createAttack().subscribe(data => {
+    //   console.log(data);
+    // },
+    // error => console.log(error));
   }
 
   goToPage(pageNumber:number): void{

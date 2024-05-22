@@ -2,7 +2,7 @@ import {
   CommonModule,
   NgIf,
   NgStyle
-} from "./chunk-3BVEI775.js";
+} from "./chunk-QY527VG5.js";
 import {
   Component,
   EventEmitter,
@@ -19,10 +19,10 @@ import {
   ɵɵproperty,
   ɵɵpropertyInterpolate,
   ɵɵtemplate
-} from "./chunk-72T7DBRS.js";
+} from "./chunk-2XPQHSLN.js";
 import {
   __commonJS
-} from "./chunk-EHLZM3EC.js";
+} from "./chunk-B2KS57BG.js";
 
 // node_modules/@canvasjs/charts/canvasjs.min.js
 var require_canvasjs_min = __commonJS({

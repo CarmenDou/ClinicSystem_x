@@ -18,4 +18,7 @@ public interface AttackRepository extends JpaRepository<Attack, Long> {
 
     @Query(value = "select * from attack where participant_id = ?1 and attack_datetime >= ?2 and attack_datetime < ?3", nativeQuery = true)
     List<Attack> findByParticipantIdAndAttackDateTime(Long participantId, LocalDateTime startDate, LocalDateTime endDate);
+
+    @Query(value = "select * from attack where attack_id = ?1", nativeQuery = true)
+    List<Attack> findByAttackId(Long attackId);
 }

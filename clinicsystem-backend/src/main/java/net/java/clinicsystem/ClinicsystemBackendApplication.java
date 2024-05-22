@@ -48,3 +48,12 @@ public class ClinicsystemBackendApplication {
 //    }
 //}
 
+//orgin
+//public class ClinicsystemBackendApplication {
+//
+//    public static void main(String[] args) {
+//        SpringApplication.run(ClinicsystemBackendApplication.class, args);
+//    }
+//
+//}
+

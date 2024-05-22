@@ -21,8 +21,15 @@ export class AttackReportComponent implements OnInit {
       const now = moment();
 
       reports.forEach(report => {
-        const reportDate = moment(report.attackDateTime);
-        const diff = now.diff(reportDate, 'days');
+        const reportDate = new Date(report.attackDateTime);
+        const startDate = new Date(reportDate.getFullYear(), reportDate.getMonth(), reportDate.getDate());
+        const endDate = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+        // Get the difference in time
+        const timeDifference = endDate.getTime() - startDate.getTime();
+        // Convert time difference to days
+        const diff = timeDifference / (1000 * 3600 * 24);
+        //const diff = now.diff(reportDate, 'days');
+        // console.log(diff);
         if (diff < 7) {
           data_y[6 - diff]++;
         }

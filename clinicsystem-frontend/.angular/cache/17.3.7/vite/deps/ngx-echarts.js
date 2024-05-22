@@ -21,12 +21,12 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵdirectiveInject
-} from "./chunk-72T7DBRS.js";
+} from "./chunk-2XPQHSLN.js";
 import {
   __async,
   __spreadProps,
   __spreadValues
-} from "./chunk-EHLZM3EC.js";
+} from "./chunk-B2KS57BG.js";
 
 // node_modules/ngx-echarts/fesm2022/ngx-echarts.mjs
 var ChangeFilterV2 = class {

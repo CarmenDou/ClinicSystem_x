@@ -3,4 +3,7 @@ export class Attack {
     attackDateTime!: string;
     location!: string;
     participantId!: number;
+
+    userName!: string;
+    deviceUuid!: string;
 }
