@@ -54,7 +54,7 @@ This system consists of three main components:
 
   -  Tables
 
-    ![]()
+    ![databaseTable](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/databaseTable.jpg)
 
 - Web Portal
 
@@ -62,7 +62,7 @@ This system consists of three main components:
 
     - A Login page to verify the identification of the clinician by username and password
 
-    ![Login](/Users/douwei/Desktop/GitHub/ClinicSystem/Login.jpg)
+      ![Login](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/Login.jpg)
 
   - Patient List Page (a dashboard)
 
