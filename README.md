@@ -54,7 +54,7 @@ This system consists of three main components:
 
   -  Tables
 
-    ![databaseTable](/Users/douwei/Desktop/GitHub/ClinicSystem/databaseTable.jpg)
+    ![]()
 
 - Web Portal
 
