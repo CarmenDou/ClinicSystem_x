@@ -48,11 +48,11 @@ This system consists of three main components:
 
 - RESTful Backend(server + database)
 
-  -  Example of backend
+  - Example of backend
 
-    ![backend](/Users/douwei/Desktop/GitHub/backend.jpg)
+    ![backend](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/backend.jpg)
 
-  -  Tables
+  - Tables
 
     ![databaseTable](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/databaseTable.jpg)
 
@@ -62,22 +62,25 @@ This system consists of three main components:
 
     - A Login page to verify the identification of the clinician by username and password
 
-      ![Login](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/Login.jpg)
+      ![login](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/Login.jpg)
 
   - Patient List Page (a dashboard)
 
     - A list of all participants currently using the app (registered in the study) in table with columns: username, alert (or not), last time of report (the latest reported record's time), respectively
+
     - In the "alert (or not)" column, clinicians should be notified if a participant has not reported attacks for more than 2 days before today. An alert, such as a highlighted icon, should be shown. The participant with the alert should be displayed first. The longer a participant goes without reporting, the higher their priority. For example, if participant A has not reported for the past 3 days and participant B has not reported for the past 2 days, A should be sorted above B.
 
-    ![PatientList](/Users/douwei/Desktop/GitHub/ClinicSystem/PatientList.jpg)
+      ![patientList](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/PatientList.jpg)
 
   - Patient Detail Page
 
     - Any participant in the list on dashboard can be selected to navigate to the participant's detail page
+
     - A table to show all Raynauds records in a time reverse manner (the latest record should be shown on the top). The columns of the table is "attack date", "attack time", "location". If there are more than 10 records for a patient, you need to make a pagination.
+
     - A **bar chart** to show the daily number of records for the **past seven days since TODAY**
 
-    ![PatientDetail](/Users/douwei/Desktop/GitHub/ClinicSystem/PatientDetail.jpg)
+      ![patientDetail](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/PatientDetail.jpg)
 
 - App (**Keep updating**)
 
@@ -95,25 +98,23 @@ This system consists of three main components:
 
       - A location question:"Are you in the room?" with answer options: "inside"/"outside" (participant can only choose one)
 
-        ![AddAttack](/Users/douwei/Desktop/GitHub/ClinicSystem/AddAttack.jpg)
+        ![addAttack](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/AddAttack.jpg)
 
-        ![AttackListAfterAdd](/Users/douwei/Desktop/GitHub/ClinicSystem/AttackListAfterAdd.jpg)
-
-        
+        ![attackListAfterAdd](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/AttackListAfterAdd.jpg)
 
     - Edit attack
 
       - Update the record you already created within the day just in case you input the wrongly attack information.
 
-        ![EditAttack](/Users/douwei/Desktop/GitHub/ClinicSystem/EditAttack.jpg)
+        ![editAttack](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/EditAttack.jpg)
 
-        ![AttackListAfterEdit](/Users/douwei/Desktop/GitHub/ClinicSystem/AttackListAfterEdit.jpg)
+        ![attackListAfterEdit](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/AttackListAfterEdit.jpg)
 
     - List today's attacks
 
       - Show a list of the day's records in app till next day in case of editing (i.e. **in app**, at the beginning of the day the records should be empty. Reported records will retain till the end of the day (11:59 PM), and can be edited. On the second day (12:00 AM), the list should be refreshed.
 
-        ![Attack](/Users/douwei/Desktop/GitHub/ClinicSystem/Attack.jpg)
+        ![attack](https://github.com/CarmenDou/ClinicSystem/blob/master/demoImages/Attack.jpg)
 
   - Raynauds daily report
 
